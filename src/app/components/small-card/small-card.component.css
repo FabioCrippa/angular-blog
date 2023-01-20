@@ -1,5 +1,6 @@
 .container__small-card {
     width: 700px;
+    height: 180px;
     margin-bottom: 15px;
 }
 
@@ -22,7 +23,7 @@
 }
 
 .title__small-card > h1 {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .separator__small-card {
