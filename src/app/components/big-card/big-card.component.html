@@ -6,12 +6,12 @@
     </div>
 
     <div class="title__big-card">
-        <h1><a href="#">{{ cardTitle }}</a></h1>
+        <h1><a [routerLink]="['content', id]">{{ cardTitle }}</a></h1>
     </div>
 
     <div class="description__big-card">
         <p>
-            <a href="#">
+            <a [routerLink]="['content', id]">
              {{ cardDescription }}
             </a> 
         </p>
